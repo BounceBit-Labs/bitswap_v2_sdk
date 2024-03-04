@@ -26,4 +26,5 @@ export declare class Token extends Currency {
 export declare function currencyEquals(currencyA: Currency, currencyB: Currency): boolean;
 export declare const WETH: {
     11155111: Token;
+    9000: Token;
 };
