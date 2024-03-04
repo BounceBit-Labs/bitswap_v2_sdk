@@ -17,7 +17,7 @@ var ChainId;
 
 (function (ChainId) {
   ChainId[ChainId["SEPOLIA"] = 11155111] = "SEPOLOA";
-  ChainId[ChainId["BOUNCEBIT_DEV"] = 9000] = "BOUNCEBIT";
+  ChainId[ChainId["BIT_DEVNET"] = 9000] = "BOUNCEBIT";
 
 })(ChainId || (ChainId = {}));
 
@@ -452,7 +452,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.SEPOLIA] = /*#__PURE__*/new Token(ChainId.SEPOLIA, '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.BOUNCEBIT_DEV] = /*#__PURE__*/new Token(ChainId.BOUNCEBIT_DEV, '0x81D134F660257261E51911f0a50Af9442C7aae71', 18, 'WETH', 'Wrapped Ether'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.SEPOLIA] = /*#__PURE__*/new Token(ChainId.SEPOLIA, '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.BIT_DEVNET] = /*#__PURE__*/new Token(ChainId.BIT_DEVNET, '0x81D134F660257261E51911f0a50Af9442C7aae71', 18, 'WETH', 'Wrapped Ether'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);

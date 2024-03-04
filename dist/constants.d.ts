@@ -2,7 +2,7 @@ import JSBI from 'jsbi';
 export declare type BigintIsh = JSBI | bigint | string;
 export declare enum ChainId {
     SEPOLIA = 11155111,
-    BOUNCEBIT_DEV = 9000
+    BIT_DEVNET = 9000
 }
 export declare enum TradeType {
     EXACT_INPUT = 0,
