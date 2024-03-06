@@ -38,7 +38,7 @@ var Rounding;
 // var FACTORY_ADDRESS = "0x458c82A7Facbf65EDda27c0dF1f5688D19586267";
 var FACTORY_ADDRESS = (chainId) => {
   const addresses = {
-    [9000]: '0xbaCcAA9cDF67f52731840DEc34F6b8C321A55c15',
+    [9000]: '0xC90af1178Db9Eb4a584bC78975600dD6478d2897',
     [11155111]: '0x458c82A7Facbf65EDda27c0dF1f5688D19586267',
   }
   return addresses[chainId] ? addresses[chainId] : addresses[5]
@@ -46,7 +46,7 @@ var FACTORY_ADDRESS = (chainId) => {
 
 const INIT_CODE_HASH = (chainId) => {
   const hash = {
-    [9000]: '0x87a7b4fbda30a75c855b01b05305da8d72bc162f7b149841cae31a9826496e55',
+    [9000]: '0x7fc178e76bbba287f56c96a358a0e5f496c91d6d39d2fd5383dad45d4ab9a691',
     [11155111]: '0x35e95dbf15807cb95be481e8ee712defe8173364c4292d301c976af6146e60a3',
   }
   return hash[chainId] ? hash[chainId] : hash[5]
@@ -452,7 +452,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.SEPOLIA] = /*#__PURE__*/new Token(ChainId.SEPOLIA, '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.BIT_DEVNET] = /*#__PURE__*/new Token(ChainId.BIT_DEVNET, '0x81D134F660257261E51911f0a50Af9442C7aae71', 18, 'WETH', 'Wrapped Ether'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.SEPOLIA] = /*#__PURE__*/new Token(ChainId.SEPOLIA, '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.BIT_DEVNET] = /*#__PURE__*/new Token(ChainId.BIT_DEVNET, '0x1bbdC60FBf52FC8dF204b788A5df42908D853ae6', 18, 'WETH', 'Wrapped Ether'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
